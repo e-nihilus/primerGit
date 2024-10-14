@@ -1,29 +1,19 @@
-function calculadora(operacion, op1, op2 = 0) {
-
-    if (operacion === "sum") {
-
-      return op1 + op2;
-
-    } else if (operacion === "subs") {
-        
-      return op1 - op2;
-
-    } else if (operacion === "mult") {
-
-      return op1 * op2;
-
-    } else if (operacion === "div") {
-
-      return op1 / op2;
-    }
-    else if (operacion === "cuad") {
-
-      return op1 * op1;
-    }
+function sumar(op1, op2) {
+  return op1 + op2;
 }
 
-console.log(sum, 5, 3);
-console.log(subs, 5, 3);
-console.log(mult, 5, 3);
-console.log(div, 5, 3);
-console.log(cuad, 5);
+function restar(op1, op2) {
+  return op1 - op2;
+}
+
+function multiplicar(op1, op2) {
+  return op1 * op2;
+}
+
+function dividir(op1, op2) {
+  return op1 / op2;
+}
+
+function cuadrado(op1) {
+  return op1 * op1;
+}
